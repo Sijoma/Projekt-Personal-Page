@@ -3,7 +3,7 @@ const colors = {
   white: '#fff',
   gray: '#fafafa',
   red: '#E74C3C',
-  blue: '#1fbf6f',  
+  blue: '#0f50db',  
   green: '#29B573',
   gradient: `background: #11998e;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */

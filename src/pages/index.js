@@ -15,7 +15,9 @@ const Hero = () => {
       css={css`
         color: ${theme.colors.white};
         width: 100%;
-        ${theme.colors.gradient}
+        background: ${theme.colors.primary};  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, ${theme.colors.primary}, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, ${theme.colors.primary}, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         padding: 20px 0 30px 0;
         display: flex;
       `}
