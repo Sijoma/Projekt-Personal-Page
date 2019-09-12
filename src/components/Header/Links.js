@@ -11,10 +11,10 @@ export default () => {
       {/* <Link to="#" activeClassName="active" aria-label="View page">
         Blog
       </Link> */}
-      <Link to="#" activeClassName="active" aria-label="View page">
+      <Link to="/ueberuns" activeClassName="active" aria-label="View page">
         Über uns
       </Link>
-      <Link to="#" activeClassName="active" aria-label="View page">
+      <Link to="/kontakt" activeClassName="active" aria-label="View page">
         Kontakt
       </Link>
 

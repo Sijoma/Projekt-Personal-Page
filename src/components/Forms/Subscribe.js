@@ -12,8 +12,8 @@ const FORM_ID = process.env.CONVERTKIT_SIGNUP_FORM
 
 const SubscribeSchema = Yup.object().shape({
   email_address: Yup.string()
-    .email('Invalid email address')
-    .required('Required'),
+    .email('Falsche E-Mail Adresse')
+    .required('Benötigt.'),
   first_name: Yup.string(),
 })
 
@@ -22,9 +22,9 @@ const PostSubmissionMessage = ({ response }) => {
     <div>
       <Message
         illustration={PleaseConfirmIllustration}
-        title={`Great, one last thing...`}
-        body={`I just sent you an email with the confirmation link. 
-          **Please check your inbox!**`}
+        title={`Cool, noch eine Sache...`}
+        body={`Wir haben dir eine E-Mail mit einem Bestätigungslink geschickt. 
+          **Bitte überprüfen Sie ihren E-Mail Eingang!**`}
       />
     </div>
   )
@@ -60,7 +60,7 @@ class SignUp extends React.Component {
     } catch (error) {
       this.setState({
         submitted: false,
-        errorMessage: 'Something went wrong!',
+        errorMessage: 'Etwas ist schief gelaufen.',
       })
     }
   }
@@ -79,7 +79,7 @@ class SignUp extends React.Component {
               margin-top: 0;
             `}
           >
-            Join the Newsletter
+            Newsletter abonnieren.
           </h2>
         )}
 
@@ -134,7 +134,7 @@ class SignUp extends React.Component {
                         align-items: flex-end;
                       `}
                     >
-                      First Name
+                      Vorname
                       <ErrorMessage
                         name="first_name"
                         component="span"
@@ -142,10 +142,10 @@ class SignUp extends React.Component {
                       />
                     </div>
                     <Field
-                      aria-label="your first name"
+                      aria-label="Vorname"
                       aria-required="false"
                       name="first_name"
-                      placeholder="Jane"
+                      placeholder="Max"
                       type="text"
                     />
                   </label>
@@ -162,7 +162,7 @@ class SignUp extends React.Component {
                         align-items: flex-end;
                       `}
                     >
-                      Email
+                      E-Mail
                       <ErrorMessage
                         name="email_address"
                         component="span"
@@ -173,7 +173,7 @@ class SignUp extends React.Component {
                       aria-label="your email address"
                       aria-required="true"
                       name="email_address"
-                      placeholder="jane@acme.com"
+                      placeholder="max@mustermann.de"
                       type="email"
                     />
                   </label>
@@ -182,8 +182,8 @@ class SignUp extends React.Component {
                     type="submit"
                     disabled={isSubmitting}
                   >
-                    {!isSubmitting && 'Submit'}
-                    {isSubmitting && 'Submitting...'}
+                    {!isSubmitting && 'Abschicken'}
+                    {isSubmitting && 'Sende...'}
                   </button>
                 </Form>
               )}
