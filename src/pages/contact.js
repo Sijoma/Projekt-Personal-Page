@@ -29,8 +29,7 @@ export default function Index({ data: { site, allMdx } }) {
           ':hover': {
             color: theme.colors.primary,
           },
-        })}
-      >Trag dich ein, damit du immer mitbekommst wenn ein neuer Artikel veröffentlicht wurde.</h2>
+        })}>Trag dich ein, damit du immer mitbekommst wenn ein neuer Artikel veröffentlicht wurde.</h2>
         <hr />
       </Container>
     </Layout>

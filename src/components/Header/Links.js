@@ -11,11 +11,11 @@ export default () => {
       {/* <Link to="#" activeClassName="active" aria-label="View page">
         Blog
       </Link> */}
-      <Link to="/ueberuns" activeClassName="active" aria-label="View page">
-        Über uns
+      <Link to="/me" activeClassName="active" aria-label="View page">
+        Me
       </Link>
-      <Link to="/kontakt" activeClassName="active" aria-label="View page">
-        Kontakt
+      <Link to="/contact" activeClassName="active" aria-label="View page">
+        Get in touch
       </Link>
 
       <ThemeToggler
