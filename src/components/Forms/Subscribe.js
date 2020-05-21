@@ -60,7 +60,7 @@ class SignUp extends React.Component {
     } catch (error) {
       this.setState({
         submitted: false,
-        errorMessage: 'Etwas ist schief gelaufen.',
+        errorMessage: 'Something went wrong.',
       })
     }
   }
@@ -79,7 +79,7 @@ class SignUp extends React.Component {
               margin-top: 0;
             `}
           >
-            Newsletter abonnieren.
+            Subscribe.
           </h2>
         )}
 
@@ -126,7 +126,7 @@ class SignUp extends React.Component {
                     }
                   `}
                 >
-                  <label htmlFor="first_name">
+                  <label htmlFor="name">
                     <div
                       css={css`
                         display: flex;
@@ -134,17 +134,17 @@ class SignUp extends React.Component {
                         align-items: flex-end;
                       `}
                     >
-                      Vorname
+                      Name
                       <ErrorMessage
-                        name="first_name"
+                        name="name"
                         component="span"
                         className="field-error"
                       />
                     </div>
                     <Field
-                      aria-label="Vorname"
+                      aria-label="Name"
                       aria-required="false"
-                      name="first_name"
+                      name="name"
                       placeholder="Max"
                       type="text"
                     />
@@ -182,8 +182,8 @@ class SignUp extends React.Component {
                     type="submit"
                     disabled={isSubmitting}
                   >
-                    {!isSubmitting && 'Abschicken'}
-                    {isSubmitting && 'Sende...'}
+                    {!isSubmitting && 'Submit'}
+                    {isSubmitting && 'Submitting...'}
                   </button>
                 </Form>
               )}

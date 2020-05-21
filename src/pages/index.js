@@ -38,8 +38,8 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          "Natürlich interessiert mich die Zukunft. Ich will schließlich den Rest meines Lebens darin verfolgen."
-        </h1> <span>Mark Twain</span>
+         "It works locally!" 
+        </h1> <span>- Every Developer</span>
       </Container>
       <div
         css={css`
@@ -59,7 +59,7 @@ const Description = styled.p`
 export default function Index({ data: { site, allMdx } }) {
   const theme = useTheme()
   return (
-    <Layout site={site} noSubscribeForm="true" noFooter="true">
+    <Layout site={site} noSubscribeForm="true">
       <Hero />
       <Container
         css={css`
@@ -89,19 +89,27 @@ export default function Index({ data: { site, allMdx } }) {
                 {post.frontmatter.title}
               </Link>
             </h2>
+            <span
+              css={css({
+                fontSize: rhythm(0.6),
+                fontStyle: 'italic'
+              })}>
+              {post.frontmatter.date}
+            </span>
+            
             <Description>
               {post.excerpt}{' '}
               <Link
                 to={post.frontmatter.slug}
                 aria-label={`View ${post.frontmatter.title}`}
               >
-                Artikel lesen →
+                Read article →
               </Link>
             </Description>
           </div>
         ))}
         <Link to="/blog" aria-label="Visit page">
-          Alle Artikel anzeigen
+          Show more
         </Link>
         <hr />
       </Container>
@@ -118,7 +126,7 @@ export const pageQuery = graphql`
       }
     }
     allMdx(
-      limit: 5
+      limit: 2
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { published: { ne: false } } }
     ) {

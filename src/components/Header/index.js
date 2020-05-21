@@ -58,8 +58,8 @@ const Header = ({ siteTitle }) => {
                 margin-right: 16px;
               }
               .active {
-                display: none;
-                visibility: hidden;
+                font-weight: 800;
+                color: ${theme.colors.goldenrod}
               }
             `}
           >

@@ -37,7 +37,7 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          Wir sind Du. Du bist Wir.
+          
         </h1>
       </Container>
       <div
@@ -66,7 +66,7 @@ export default function Index({ data: { site, allMdx } }) {
         `}
       >
         <Description>
-          Hier gibts was auf die Löffel
+          Placeholder: Tech I like, Tools, Hobbies
         </Description>
 
         <hr />

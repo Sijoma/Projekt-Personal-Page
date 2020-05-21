@@ -8,9 +8,9 @@ export default () => {
   const theme = useTheme()
   return (
     <React.Fragment>
-      {/* <Link to="#" activeClassName="active" aria-label="View page">
+      <Link to="/blog" activeClassName="active" aria-label="View page">
         Blog
-      </Link> */}
+      </Link>
       <Link to="/me" activeClassName="active" aria-label="View page">
         Me
       </Link>

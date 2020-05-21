@@ -16,7 +16,7 @@ const Description = styled.p`
 export default function Index({ data: { site, allMdx } }) {
   const theme = useTheme()
   return (
-    <Layout site={site}>
+    <Layout site={site} noSubscribeForm="true">
       <Container
         css={css`
           padding-bottom: 0;
@@ -29,7 +29,7 @@ export default function Index({ data: { site, allMdx } }) {
           ':hover': {
             color: theme.colors.primary,
           },
-        })}>Trag dich ein, damit du immer mitbekommst wenn ein neuer Artikel veröffentlicht wurde.</h2>
+        })}>☎️ You can get in touch with me on any social platform. Github, Twitter etc.</h2>
         <hr />
       </Container>
     </Layout>
