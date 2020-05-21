@@ -94,7 +94,8 @@ export default function Index({ data: { site, allMdx } }) {
                 fontSize: rhythm(0.6),
                 fontStyle: 'italic'
               })}>
-              {post.frontmatter.date}
+              {post.frontmatter.date} - ⏱
+              {post.fields.readingTime.text}
             </span>
             
             <Description>
@@ -138,6 +139,9 @@ export const pageQuery = graphql`
             title
             slug
             date
+            readingTime {
+              text
+            }
           }
           parent {
             ... on File {

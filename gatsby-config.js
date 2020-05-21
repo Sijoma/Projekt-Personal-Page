@@ -55,6 +55,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-remark-reading-time',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
