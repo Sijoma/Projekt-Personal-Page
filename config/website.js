@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: 'ATNT', // Navigation and Site Title
   siteTitleAlt: 'ATNT', // Alternative Site title for SEO
   siteTitleShort: 'Simon', // short_name for manifest
-  siteUrl: 'https://project-simon.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://simon-zengerling.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: 'Everything Mate.',

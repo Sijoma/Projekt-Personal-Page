@@ -80,7 +80,7 @@ const Blog = ({
               `}
             >
               <Link
-                aria-label={`Artikel ${post.frontmatter.title} anzeigen`}
+                aria-label={`Read ${post.frontmatter.title} article`}
                 to={`/${post.fields.slug}`}
               >
                 {post.frontmatter.title}
@@ -96,16 +96,16 @@ const Blog = ({
             </p>{' '}
             <Link
               to={`/${post.fields.slug}`}
-              aria-label={`Artikel "${post.frontmatter.title}" anzeigen`}
+              aria-label={`Read "${post.frontmatter.title}" article`}
             >
-              Artikel lesen →
+              Read article →
             </Link>
           </div>
         ))}
         <div css={css({ marginTop: '30px' })}>
           {nextPagePath && (
             <Link to={nextPagePath} aria-label="View next page">
-              Nächste Seite →
+              Next page →
             </Link>
           )}
           {previousPagePath && (

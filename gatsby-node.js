@@ -20,7 +20,6 @@ const createPosts = (createPage, createRedirect, edges) => {
         })
       })
     }
-
     createPage({
       path: pagePath,
       component: path.resolve(`./src/templates/post.js`),

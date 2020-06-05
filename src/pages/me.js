@@ -6,6 +6,8 @@ import Layout from 'components/Layout'
 import { useTheme } from 'components/Theming'
 import Container from 'components/Container'
 import { rhythm } from '../lib/typography'
+import { IconContext } from "react-icons";
+import { DiLinux, DiAngularSimple, DiNginx, DiNodejs, DiVim, DiDocker, DiFirebase, DiGit, DiReact, DiGo, DiVisualstudio, DiMarkdown, DiJira, DiPostgresql, DiPython, DiJava, DiJenkins } from 'react-icons/di';
 
 const Hero = () => {
   const theme = useTheme()
@@ -63,12 +65,55 @@ export default function Index({ data: { site, allMdx } }) {
       <Container
         css={css`
           padding-bottom: 0;
+          .portfolio-icon {
+            margin: 1.2em
+          }
         `}
       >
-        <Description>
-          Placeholder: Tech I like, Tools, Hobbies
-        </Description>
-
+        <IconContext.Provider value={{ color: theme.colors.primary, style: { verticalAlign: 'middle' }, className: "portfolio-icon", size: "3em" }}>
+          <div> 
+            <h2>My current stack most used technologies</h2>
+              <DiPostgresql/>
+              <span>Postgres</span>
+              <DiAngularSimple />
+              <span>Angular</span>
+              <DiNodejs/> 
+              <span>Node</span>
+              <DiNginx /> 
+              <span>Nginx</span>
+              <DiPython />
+              <span>Python</span>
+              <DiDocker/> 
+              <span>Docker</span>
+            <h2>My Tools</h2>
+              <DiLinux />
+              <span>Linux</span>
+              <DiVim/> 
+              <span>Vim</span>
+              <DiGit/>
+              <span>Git</span>
+              <DiJira/>
+              <span>Jira</span>
+              <DiVisualstudio /> 
+              <span>VsCode</span>
+              <h2>How I deploy</h2>
+              <DiJenkins />
+              <span>Jenkins</span>
+              <DiDocker />
+              <span>Docker</span>
+            <h2>How I document</h2>
+              <DiMarkdown/> 
+              <span>Markdown</span>
+            <h2>How I prototype</h2>
+              <DiFirebase/> 
+              <span>Firebase</span>
+            <h2>I also enjoy</h2>
+            <DiReact/> 
+            <span>React</span>
+            <DiGo /> 
+            <span>Go</span>
+          </div>
+        </IconContext.Provider>
         <hr />
       </Container>
     </Layout>
