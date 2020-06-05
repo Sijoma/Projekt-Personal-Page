@@ -5,7 +5,7 @@ title: 'A Lovely Walk In The Park'
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie leo ut sodales porta. Vivamus pharetra risus ac fermentum faucibus. Nam in sodales ex.'
 categories: ['test']
 keywords: ['test']
-published: true
+published: false 
 banner: './banner.png'
 author: 'Aljoscha'
 ---
