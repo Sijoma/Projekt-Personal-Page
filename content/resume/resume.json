@@ -1,1 +1,273 @@
-/Users/simon/Documents/Bewerbung/2020-CV/resume.json
+{
+  "basics": {
+    "name": "Simon Zengerling",
+    "label": "Software Engineer",
+    "picture": "resume/img_0065.jpg",
+    "email": "-",
+    "phone": "Ask for it",
+    "website": "http://simonzengerling.com",
+    "summary": "Software Engineer with a passion for unmanned aerial vehicles, over 40 year old text-editors and bleeding edge technology.",
+    "location": {
+      "address": "Rosmarinheide",
+      "postalCode": "22417",
+      "city": "Hamburg",
+      "countryCode": "DE",
+      "region": "Hamburg"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "sijoma",
+        "url": ""
+      },
+      {
+        "network": "LinkedIn",
+        "username": "simon-schulte-",
+        "url": "https://www.linkedin.com/in/simon-schulte-/"
+      },
+      {
+        "network": "GitHub",
+        "username": "sijoma",
+        "url": "https://github.com/Sijoma"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Lufthansa Technik AG",
+      "position": "Fullstack-Developer / Manager Corporate Business Innovation & Product Management",
+      "website": "https://drones.lufthansa.com",
+      "startDate": "2019-08-01",
+      "summary": "Worked on Digital Maintenance Platform that asseses the flight-readiness of UAV",
+      "highlights": [
+        "Improved robustness of the ETL and Analysis process",
+        "Implemented RESTful API with OpenAPI documentation",
+        "Maintained infrastructure of the data pipeline with Kubernetes, Docker and Terraform"
+      ]
+    },
+    {
+      "company": "Lufthansa Technik AG",
+      "position": "Intern / Working Student",
+      "website": "https://health.safe-drone.com",
+      "startDate": "2018-04-01",
+      "endDate": "2019-08-01",
+      "summary": "Worked on Digital Maintenance Platform that asseses the flight-readiness of UAV",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "WWU Münster",
+      "position": "Tutor - Unmanned Aerial Systems in Applied Research",
+      "website": "https://copter.ifgi.de",
+      "startDate": "2017-04-30",
+      "endDate": "2017-07-31",
+      "summary": "Tutor Video-Processing, Image-Analysis, Web Development",
+      "highlights": []
+    },
+    {
+      "company": "Forschungsstelle Asia Minor, WWU Münster",
+      "position": "Web Developer - GIS",
+      "startDate": "2016-09-01",
+      "endDate": "2017-01-31",
+      "summary": "",
+      "highlights": [
+        "Tutor für Video-Prozessierung, Bild-Analyse, Web Entwicklung"
+      ]
+    },
+    {
+      "company": "DRK-Blutspende Dienst West",
+      "position": "Working Student",
+      "startDate": "2012-10-01",
+      "endDate": "2014-08-01",
+      "summary": "Public Relations"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "IfgiCopter Research Group",
+      "position": "Member",
+      "website": "https://copter.ifgi.de",
+      "startDate": "2014-01-31",
+      "endDate": "2019-07-31",
+      "summary": "Research Group IfgiCopter - Building and maintaining a fleet of fixed-wing and VTOL UAVs - Research in the field of remote sensing and computer vision.",
+      "highlights": [
+        "Research in the field of computer vision and remote sensing.",
+        "Building a fixed wing with autopilot and camera payload."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Westfälische Wilhelms-Universität Münster",
+      "area": "Geoinformatics",
+      "studyType": "Master of Science - Msc.",
+      "startDate": "2017-12-31",
+      "endDate": "2019-12-31",
+      "gpa": "-",
+      "courses": []
+    },
+    {
+      "institution": "Westfälische Wilhelms-Universität Münster",
+      "area": "Geoinformatik",
+      "studyType": "Bachelor of Science - Bsc.",
+      "startDate": "2012-12-31",
+      "endDate": "2017-12-31",
+      "gpa": "-",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Winner of the BMVI Data-Run Challenge „Mehr Sicherheit am Drohnenhimmel",
+      "date": "2019-03-31",
+      "awarder": "Bundesministerium für Verkehr und digitale Infrastruktur",
+      "summary": "https://www.bmvi.de/SharedDocs/DE/Artikel/DG/preistraeger-datarun-2019.html"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Analysis of combined UAV-based RGB and thermal remote sensing data: A new approach to crowd monitoring",
+      "publisher": "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "releaseDate": "2017-08-31",
+      "website": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W6/347/2017/",
+      "summary": "Abstract. Collecting vast amount of data does not solely help to fulfil information needs related to crowd monitoring, it is rather important to collect data that is suitable to meet specific information requirements. In order to address this issue, a prototype is developed to facilitate the combination of UAV-based RGB and thermal remote sensing datasets. In an experimental approach, image sensors were mounted on a remotely piloted aircraft and captured two video datasets over a crowd. A group of volunteers performed diverse movements that depict real world scenarios. The prototype is deriving the movement on the ground and is programmed in MATLAB. This novel detection approach using combined data is afterwards evaluated against detection algorithms that only use a single data source. Our tests show that the combination of RGB and thermal remote sensing data is beneficial for the field of crowd monitoring regarding the detection of crowd movement."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Softwareentwicklung",
+      "levelDisplay": "Täglich in Anwendung",
+      "level": "Master",
+      "keywords": [
+        "Docker",
+        "CI/CD",
+        "SOLID Prinzipien",
+        "Projekt Management"
+      ]
+    },
+    {
+      "name": "Back-End-Webentwicklung",
+      "levelDisplay": "Täglich in Anwendung",
+      "level": "Master",
+      "keywords": [
+        "Restful API",
+        "ExpressJS",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "levelDisplay": "Häufig in Anwendung",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "R",
+        "Spatio-Temporal Analysis",
+        "Monte-Carlo Simulation",
+        "Pandas"
+      ]
+    },
+    {
+      "name": "Cloud-Computing",
+      "levelDisplay": "Häufig in Anwendung",
+      "level": "Advanced",
+      "keywords": [
+        "Microsoft Azure",
+        "Google Firebase",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Datenbankentwicklung",
+      "levelDisplay": "Häufig in Anwendung",
+      "level": "Advanced",
+      "keywords": [
+        "Räumliche Datenbanken",
+        "Postgres",
+        "MongoDB",
+        "Firestore"
+      ]
+    },
+    {
+      "name": "Tools",
+      "levelDisplay": "Täglich in Anwendung",
+      "level": "Master",
+      "keywords": [
+        "Linux",
+        "Vim",
+        "Bash",
+        "Git",
+        "Jira",
+        "VsCode"
+      ]
+    },
+    {
+      "name": "Computer-Vision",
+      "levelDisplay": "erweiterte Grundkenntnisse",
+      "level": "Advanced",
+      "keywords": [
+        "OpenCV",
+        "Photogrammetrie"
+      ]
+    },
+    {
+      "name": "Frontend-Entwicklung",
+      "levelDisplay": "Häufig in Anwendung",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "NodeJS",
+        "Angular",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Deutsch",
+      "fluencyDisplay": "Muttersprache",
+      "fluency": "native speaker"
+    },
+    {
+      "language": "English",
+      "fluencyDisplay": "Verhandlungssicher",
+      "fluency": "fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Windsurfen 🏄🏻‍♂️",
+        "Longboard 🛹"
+      ]
+    },
+    {
+      "name": "UAV",
+      "keywords": [
+        "DIY Bauen 🛠",
+        "FPV Mini Renndrohnen 🚀",
+        "Kartographie 🗺"
+      ]
+    },
+    {
+      "name": "Computer Stuff",
+      "keywords": [
+        "Code Meetups 🙋🏻‍♂️",
+        "Hackathons 💻",
+        "Raspberry PI",
+        "IoT",
+        "Go"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Simon Schulte",
+      "reference": "Still lots of stuff to do :) Decide on translation etc."
+    }
+  ]
+}
