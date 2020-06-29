@@ -1,10 +1,10 @@
-import React from 'react'
-import { css } from '@emotion/core'
-import { bpMaxSM } from 'lib/breakpoints'
+import { css } from '@emotion/core';
+import { bpMaxSM } from 'lib/breakpoints';
+import React from 'react';
 
 const Container = props => {
   const {
-    maxWidth = 700,
+    maxWidth = 900,
     noHorizontalPadding = false,
     noVerticalPadding = false,
     ...restProps

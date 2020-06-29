@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
-import { css } from '@emotion/core'
-import { useTheme } from '../Theming'
+import { css } from '@emotion/core';
+import { graphql, Link, StaticQuery } from 'gatsby';
+import React from 'react';
+
+import { bpMaxSM } from '../../lib/breakpoints';
+import Container from '../Container';
+import { useTheme } from '../Theming';
+import Links from './Links';
+import MobileMenu from './MobileMenu';
+
 // import ThemeToggler from './ThemeToggler'
-import { bpMaxSM } from '../../lib/breakpoints'
-import MobileMenu from './MobileMenu'
-import Links from './Links'
-
-import Container from '../Container'
-
 const Header = ({ siteTitle }) => {
   const theme = useTheme()
   return (
@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => {
               }
             `}
           >
-            {siteTitle}
+            {/* {siteTitle} */}
           </Link>
           <div
             css={css`

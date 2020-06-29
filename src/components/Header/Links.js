@@ -1,8 +1,9 @@
-import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
-import { css } from '@emotion/core'
-import { useTheme } from '../Theming'
-import ThemeToggler from './ThemeToggler'
+import { css } from '@emotion/core';
+import { Link } from 'gatsby';
+import React from 'react';
+
+import { useTheme } from '../Theming';
+import ThemeToggler from './ThemeToggler';
 
 export default () => {
   const theme = useTheme()
@@ -13,6 +14,9 @@ export default () => {
       </Link>
       <Link to="/me" activeClassName="active" aria-label="View page">
         Me
+      </Link>
+      <Link to="/cv" activeClassName="active" aria-label="View page">
+        CV
       </Link>
       <Link to="/contact" activeClassName="active" aria-label="View page">
         Get in touch
