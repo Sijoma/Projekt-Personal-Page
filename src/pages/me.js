@@ -1,13 +1,31 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import { css } from '@emotion/core'
-import styled from '@emotion/styled'
-import Layout from 'components/Layout'
-import { useTheme } from 'components/Theming'
-import Container from 'components/Container'
-import { rhythm } from '../lib/typography'
-import { IconContext } from "react-icons";
-import { DiLinux, DiAngularSimple, DiNginx, DiNodejs, DiVim, DiDocker, DiFirebase, DiGit, DiReact, DiGo, DiVisualstudio, DiMarkdown, DiJira, DiPostgresql, DiPython, DiJava, DiJenkins } from 'react-icons/di';
+import { css } from '@emotion/core';
+import styled from '@emotion/styled';
+import Container from 'components/Container';
+import Layout from 'components/Layout';
+import { useTheme } from 'components/Theming';
+import { graphql } from 'gatsby';
+import React from 'react';
+import { IconContext } from 'react-icons';
+import {
+  DiAngularSimple,
+  DiDocker,
+  DiFirebase,
+  DiGit,
+  DiGo,
+  DiJenkins,
+  DiJira,
+  DiLinux,
+  DiMarkdown,
+  DiNginx,
+  DiNodejs,
+  DiPostgresql,
+  DiPython,
+  DiReact,
+  DiVim,
+  DiVisualstudio,
+} from 'react-icons/di';
+
+import { rhythm } from '../lib/typography';
 
 const Hero = () => {
   const theme = useTheme()
@@ -39,7 +57,6 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          
         </h1>
       </Container>
       <div

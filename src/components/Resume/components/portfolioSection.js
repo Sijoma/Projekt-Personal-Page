@@ -52,7 +52,7 @@ const DescriptionBlock = ({ item }) => (
 
 const Website = ({ website, name }) => (
   <span className="website">
-    <a target="_blank" href={website}>
+    <a target="_blank" rel="noopener" href={website}>
       {name || website}
     </a>
   </span>

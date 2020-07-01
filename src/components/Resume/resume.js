@@ -342,7 +342,7 @@ const Resume = ({ resume }) => {
           .institution,
           .organization,
           .awarder {
-            color: ${theme.colors.text};
+            color: ${darken(0.20, theme.colors.text)};
             font-weight: 400;
           }
 

@@ -1,9 +1,11 @@
-import React from 'react'
-import { css } from '@emotion/core'
-import { bpMaxSM } from '../lib/breakpoints'
-import SubscribeForm from './Forms/Subscribe'
-import { Twitter, GitHub, LinkedIn } from './Social'
-import Container from './Container'
+import { css } from '@emotion/core';
+import { Link } from 'gatsby';
+import React from 'react';
+
+import { bpMaxSM } from '../lib/breakpoints';
+import Container from './Container';
+import SubscribeForm from './Forms/Subscribe';
+import { GitHub, LinkedIn, Twitter } from './Social';
 
 const Footer = ({ author, noSubscribeForm }) => (
   <footer>
@@ -36,6 +38,12 @@ const Footer = ({ author, noSubscribeForm }) => (
           `}
         >
           {author && `${author} \u00A9 ${new Date().getFullYear()}`}
+        </div>
+        <div css={css`
+            font-size: 60%;
+            opacity: 0.6;
+          `}>
+          <Link to="/legal" aria-label="View page">Legal Notice & Privacy Policy</Link>
         </div>
         <div>
           <Twitter />
