@@ -1,5 +1,4 @@
 import { css } from '@emotion/core';
-import styled from '@emotion/styled';
 import Container from 'components/Container';
 import Layout from 'components/Layout';
 import { useTheme } from 'components/Theming';
@@ -35,8 +34,8 @@ const Hero = () => {
         color: ${theme.colors.white};
         width: 100%;
         background: ${theme.colors.primary};  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, ${theme.colors.primary}, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, ${theme.colors.primary}, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, ${theme.colors.primary}, ${theme.colors.secondary});  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, ${theme.colors.primary}, ${theme.colors.secondary}); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         padding: 20px 0 30px 0;
         display: flex;
       `}
@@ -68,11 +67,6 @@ const Hero = () => {
     </section>
   )
 }
-
-const Description = styled.p`
-  margin-bottom: 10px;
-  display: inline-block;
-`
 
 export default function Index({ data: { site, allMdx } }) {
   const theme = useTheme()

@@ -4,7 +4,7 @@ const Contact = ({ basics }) => (
   <div id="contact">
     <div className="website">
       <span className="fas fa-external-link-alt"></span> 
-      <a target="_blank" target="_blank" href={basics.website}>
+      <a target="_blank" rel="noreferrer" href={basics.website}>
         {" "+basics.website}
       </a>
     </div>

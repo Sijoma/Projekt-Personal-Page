@@ -1,12 +1,13 @@
-import React from 'react'
-import { Formik, Field, Form, ErrorMessage } from 'formik'
-import * as Yup from 'yup'
-import { css } from '@emotion/core'
-import { withTheme } from '../Theming'
-import { rhythm } from '../../lib/typography'
-import { bpMaxSM } from '../../lib/breakpoints'
-import Message from '../ConfirmMessage/Message'
-import { PleaseConfirmIllustration } from '../ConfirmMessage/Illustrations'
+import { css } from '@emotion/core';
+import { ErrorMessage, Field, Form, Formik } from 'formik';
+import React from 'react';
+import * as Yup from 'yup';
+
+import { bpMaxSM } from '../../lib/breakpoints';
+import { rhythm } from '../../lib/typography';
+import { PleaseConfirmIllustration } from '../ConfirmMessage/Illustrations';
+import Message from '../ConfirmMessage/Message';
+import { withTheme } from '../Theming';
 
 const FORM_ID = process.env.CONVERTKIT_SIGNUP_FORM
 

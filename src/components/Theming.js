@@ -1,5 +1,5 @@
 import { createTheming } from '@callstack/react-theme-provider';
-import { lighten } from 'polished';
+import { darken, lighten } from 'polished';
 
 import colors from '../lib/colors';
 
@@ -8,6 +8,7 @@ const themes = {
     themeName: 'default',
     colors: {
       primary: colors.green,
+      secondary: lighten(0.05,colors.green),
       text: colors.black,
       invertedText: colors.white,
       bodyBg: colors.gray,
@@ -20,11 +21,12 @@ const themes = {
     themeName: 'dark',
     colors: {
       primary: colors.goldenrod,
+      secondary: darken(0.1, colors.goldenrod),
       text: colors.white,
       invertedText: colors.black,
       bodyBg: colors.black,
       headerBg: colors.black,
-      link: lighten(0.05, colors.green),
+      link: lighten(0.05, colors.goldenrod),
       ...colors,
     },
   },

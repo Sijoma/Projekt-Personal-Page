@@ -9,7 +9,7 @@ const Profiles = ({ profiles }) => (
         <div className="username">
           <span className={"fab fa-" + spaceToDash(profile.network) + " " + spaceToDash(profile.network) + " social"}></span>
           <span className="url">
-            <a target="_blank"
+            <a target="_blank" rel="noreferrer"
               href={profile.url}> {profile.username}</a>
           </span>
         </div>

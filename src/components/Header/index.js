@@ -19,8 +19,8 @@ const Header = ({ siteTitle }) => {
         background: none;
         padding: 20px 0;
         background: ${theme.colors.primary};  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, ${theme.colors.primary}, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, ${theme.colors.primary}, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, ${theme.colors.primary}, ${theme.colors.secondary});  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, ${theme.colors.primary}, ${theme.colors.secondary}); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       `}
     >
       <Container noVerticalPadding>
@@ -58,8 +58,7 @@ const Header = ({ siteTitle }) => {
                 margin-right: 16px;
               }
               .active {
-                font-weight: 800;
-                color: ${theme.colors.goldenrod}
+                font-weight: 900;
               }
             `}
           >

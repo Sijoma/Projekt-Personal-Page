@@ -24,11 +24,11 @@ const DateBlock = ({ item }) => {
   )
 }
 
-const DescriptionBlock = ({ item }) => (
+const DescriptionBlock = ({ item }) => {
+  return (
   <header className="clear">
     <div className="header-left">
-      {item.name && <Website website={item.website} name={item.name} />}
-
+      {item.name && <div className="title">{item.name}</div>}
       {item.title && <div className="title">{item.title}</div>}
       {item.awarder && <div className="awarder">{item.awarder}</div>}
       <div className="position">{item.position}</div>
@@ -48,31 +48,31 @@ const DescriptionBlock = ({ item }) => (
     </div>
     <DateBlock item={item} />
   </header>
-)
+)};
 
 const Website = ({ website, name }) => (
   <span className="website">
-    <a target="_blank" rel="noopener" href={website}>
+    <a target="_blank" rel="noreferrer" href={website}>
       {name || website}
     </a>
   </span>
 )
 
 const PortfolioSection = props => {
-  const { heading = 'Work', id = 'work', ...restProps } = props
+  const { heading = 'Work', id = 'work' } = props
   const [checked, setChecked] = React.useState(0)
   return (
     <section className="section">
       <header>
         <h2 className="section-title">
           {heading}
-          <span className="item-count"> ({props.items.length})</span>
+          {props.items.length > 1 && <span className="item-count"> ({props.items.length})</span>}
         </h2>
       </header>
 
       <section id={id}>
         {props.items.map((item, index) => (
-          <section className={id + '-item'} key={item + index}>
+          <section className={id + '-item'} key={item + index} onClick={() => setChecked(index)}>
             { (!item.studyType && props.items.length > 1)  && <input
               id={id + '-item-' + index}
               type="checkbox"
@@ -84,7 +84,7 @@ const PortfolioSection = props => {
 
             <DescriptionBlock item={item} />
 
-            {item.website && !item.name && <Website website={item.website} />}
+            {item.website  && <Website website={item.website} />}
 
             {item.location && <Location location={item.location} />}
 

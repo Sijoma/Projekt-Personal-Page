@@ -366,14 +366,14 @@ const Resume = ({ resume }) => {
             font-size: 0.9rem;
             line-height: 1;
             color: ${theme.colors.invertedText};
-            background-color: ${theme.colors.primary};
-            border: 0 solid ${darken(0.10,theme.colors.text)};
+            background-color: ${lighten(0.3,theme.colors.text)};
+            border: 0 solid ${theme.colors.text};
             white-space: nowrap;
           }
 
           .keywords li:hover,
           .courses li:hover {
-            background: ${theme.colors.text};
+            background: ${theme.colors.primary};
             color: ${theme.colors.invertedText};
           }
 
@@ -449,7 +449,7 @@ const Resume = ({ resume }) => {
           }
 
           .github {
-            color: #171515;
+            color: ${theme.colors.text};
           }
 
           .stack-overflow {
@@ -531,7 +531,7 @@ const Resume = ({ resume }) => {
           }
           .level.intermediate .bar::after {
             background: #ffdf1f;
-            width: 6em;
+            width: 6.5em;
           }
           .level.advanced .bar::after,
           .level.fluent .bar::after {
@@ -645,6 +645,7 @@ const Resume = ({ resume }) => {
               float: left;
               width: 70%;
               word-break: normal;
+              pcursor: pointer;
             }
             .section header .date {
               padding: 0.2em;

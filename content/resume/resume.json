@@ -6,7 +6,7 @@
     "email": "-",
     "phone": "Ask for it",
     "website": "http://simonzengerling.com",
-    "summary": "Software Engineer with a passion for unmanned aerial vehicles, over 40 year old text-editors and bleeding edge technology.",
+    "summary": "I'm a tech guy with a passion for unmanned aerial vehicles, over 40 year old text-editors and bleeding edge technology. I enjoy to automate everything - even the small things.",
     "location": {
       "address": "Rosmarinheide",
       "postalCode": "22417",
@@ -38,11 +38,10 @@
       "position": "Fullstack-Developer / Manager Corporate Business Innovation & Product Management",
       "website": "https://drones.lufthansa.com",
       "startDate": "2019-08-01",
-      "summary": "Worked on Digital Maintenance Platform that asseses the flight-readiness of UAV",
+      "summary": "Working on innovative solutions in the field of unmanned vehicles",
       "highlights": [
-        "Improved robustness of the ETL and Analysis process",
-        "Implemented RESTful API with OpenAPI documentation",
-        "Maintained infrastructure of the data pipeline with Kubernetes, Docker and Terraform"
+        "Lead engineer responsible for the technical advancement of the projects",
+        "Development of prototypes to quickly validate new ideas and concepts"
       ]
     },
     {
@@ -51,30 +50,34 @@
       "website": "https://health.safe-drone.com",
       "startDate": "2018-04-01",
       "endDate": "2019-08-01",
-      "summary": "Worked on Digital Maintenance Platform that asseses the flight-readiness of UAV",
+      "summary": "Worked on Digital Maintenance Platform that assesses the flight-readiness of UAV",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Implemented RESTful API with OpenAPI documentation",
+        "Improved robustness of the ETL and Analysis process",
+        "Maintained infrastructure with Kubernetes, Docker and Terraform"
       ]
     },
     {
-      "company": "WWU Münster",
+      "company": "University of Münster",
       "position": "Tutor - Unmanned Aerial Systems in Applied Research",
       "website": "https://copter.ifgi.de",
       "startDate": "2017-04-30",
       "endDate": "2017-07-31",
       "summary": "Tutor Video-Processing, Image-Analysis, Web Development",
-      "highlights": []
+      "highlights": [
+        "Automated detection of floating markers in UAV-based video to detect river flow rate",
+        "Assistance to the students as an expert in computer vision."
+      ]
     },
     {
-      "company": "Forschungsstelle Asia Minor, WWU Münster",
+      "company": "Forschungsstelle Asia Minor, University of Münster",
       "position": "Web Developer - GIS",
       "startDate": "2016-09-01",
       "endDate": "2017-01-31",
-      "summary": "",
+      "summary": "Contract work to improve WebGIS",
       "highlights": [
-        "Tutor für Video-Prozessierung, Bild-Analyse, Web Entwicklung"
+        "Geoserver layer design & improvments",
+        "Implementation of new data sources"
       ]
     },
     {
@@ -82,7 +85,7 @@
       "position": "Working Student",
       "startDate": "2012-10-01",
       "endDate": "2014-08-01",
-      "summary": "Public Relations"
+      "summary": "Public Relations Department"
     }
   ],
   "volunteer": [
@@ -92,16 +95,16 @@
       "website": "https://copter.ifgi.de",
       "startDate": "2014-01-31",
       "endDate": "2019-07-31",
-      "summary": "Research Group IfgiCopter - Building and maintaining a fleet of fixed-wing and VTOL UAVs - Research in the field of remote sensing and computer vision.",
+      "summary": "",
       "highlights": [
-        "Research in the field of computer vision and remote sensing.",
-        "Building a fixed wing with autopilot and camera payload."
+        "Research in the field of computer vision and remote sensing",
+        "Building a fixed wing with autopilot and camera payload"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Westfälische Wilhelms-Universität Münster",
+      "institution": "University of Münster",
       "area": "Geoinformatics",
       "studyType": "Master of Science - Msc.",
       "startDate": "2017-12-31",
@@ -110,7 +113,7 @@
       "courses": []
     },
     {
-      "institution": "Westfälische Wilhelms-Universität Münster",
+      "institution": "University of Münster",
       "area": "Geoinformatik",
       "studyType": "Bachelor of Science - Bsc.",
       "startDate": "2012-12-31",
@@ -121,10 +124,11 @@
   ],
   "awards": [
     {
-      "title": "Winner of the BMVI Data-Run Challenge „Mehr Sicherheit am Drohnenhimmel",
+      "title": "Winner of the Challenge „Mehr Sicherheit am Drohnenhimmel“",
       "date": "2019-03-31",
       "awarder": "Bundesministerium für Verkehr und digitale Infrastruktur",
-      "summary": "https://www.bmvi.de/SharedDocs/DE/Artikel/DG/preistraeger-datarun-2019.html"
+      "summary": "",
+      "website": "https://github.com/Sijoma/BMVI-Data-Run-2019-DFS-Challenge"
     }
   ],
   "publications": [
@@ -133,24 +137,23 @@
       "publisher": "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
       "releaseDate": "2017-08-31",
       "website": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W6/347/2017/",
-      "summary": "Abstract. Collecting vast amount of data does not solely help to fulfil information needs related to crowd monitoring, it is rather important to collect data that is suitable to meet specific information requirements. In order to address this issue, a prototype is developed to facilitate the combination of UAV-based RGB and thermal remote sensing datasets. In an experimental approach, image sensors were mounted on a remotely piloted aircraft and captured two video datasets over a crowd. A group of volunteers performed diverse movements that depict real world scenarios. The prototype is deriving the movement on the ground and is programmed in MATLAB. This novel detection approach using combined data is afterwards evaluated against detection algorithms that only use a single data source. Our tests show that the combination of RGB and thermal remote sensing data is beneficial for the field of crowd monitoring regarding the detection of crowd movement."
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Softwareentwicklung",
-      "levelDisplay": "Täglich in Anwendung",
+      "name": "Software-Engineering",
+      "levelDisplay": "Daily use",
       "level": "Master",
       "keywords": [
         "Docker",
         "CI/CD",
-        "SOLID Prinzipien",
-        "Projekt Management"
+        "Project Management"
       ]
     },
     {
-      "name": "Back-End-Webentwicklung",
-      "levelDisplay": "Täglich in Anwendung",
+      "name": "Backend",
+      "levelDisplay": "Daily use",
       "level": "Master",
       "keywords": [
         "Restful API",
@@ -159,20 +162,30 @@
       ]
     },
     {
-      "name": "Data Science",
-      "levelDisplay": "Häufig in Anwendung",
-      "level": "Advanced",
+      "name": "Databases",
+      "levelDisplay": "Daily use",
+      "level": "Master",
       "keywords": [
-        "Python",
-        "R",
-        "Spatio-Temporal Analysis",
-        "Monte-Carlo Simulation",
-        "Pandas"
+        "Spatial Databases",
+        "Postgres",
+        "MongoDB",
+        "Firestore"
+      ]
+    },
+    {
+      "name": "Frontend-Development",
+      "levelDisplay": "Frequent use",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "NodeJS",
+        "Angular",
+        "React"
       ]
     },
     {
       "name": "Cloud-Computing",
-      "levelDisplay": "Häufig in Anwendung",
+      "levelDisplay": "Frequent use",
       "level": "Advanced",
       "keywords": [
         "Microsoft Azure",
@@ -181,19 +194,19 @@
       ]
     },
     {
-      "name": "Datenbankentwicklung",
-      "levelDisplay": "Häufig in Anwendung",
+      "name": "Data Science",
+      "levelDisplay": "Frequent use",
       "level": "Advanced",
       "keywords": [
-        "Räumliche Datenbanken",
-        "Postgres",
-        "MongoDB",
-        "Firestore"
+        "Python",
+        "R",
+        "Spatio-Temporal Analysis",
+        "Pandas"
       ]
     },
     {
       "name": "Tools",
-      "levelDisplay": "Täglich in Anwendung",
+      "levelDisplay": "Daily use",
       "level": "Master",
       "keywords": [
         "Linux",
@@ -206,22 +219,11 @@
     },
     {
       "name": "Computer-Vision",
-      "levelDisplay": "erweiterte Grundkenntnisse",
-      "level": "Advanced",
+      "levelDisplay": "Extended knowledge",
+      "level": "Intermediate",
       "keywords": [
         "OpenCV",
-        "Photogrammetrie"
-      ]
-    },
-    {
-      "name": "Frontend-Entwicklung",
-      "levelDisplay": "Häufig in Anwendung",
-      "level": "Master",
-      "keywords": [
-        "JavaScript",
-        "NodeJS",
-        "Angular",
-        "React"
+        "Photogrammetry"
       ]
     }
   ],
@@ -241,16 +243,16 @@
     {
       "name": "Sport",
       "keywords": [
-        "Windsurfen 🏄🏻‍♂️",
+        "Windsurfing 🏄🏻‍♂️",
         "Longboard 🛹"
       ]
     },
     {
       "name": "UAV",
       "keywords": [
-        "DIY Bauen 🛠",
-        "FPV Mini Renndrohnen 🚀",
-        "Kartographie 🗺"
+        "DIY 🛠",
+        "FPV Racing Drones 🚀",
+        "Mapping 🗺"
       ]
     },
     {
@@ -266,8 +268,8 @@
   ],
   "references": [
     {
-      "name": "Simon Schulte",
-      "reference": "Still lots of stuff to do :) Decide on translation etc."
+      "name": "Jan Koch",
+      "reference": "I worked together with Simon in different projects at LHT and can confirm his professionalism and positive work attitude. He's open minded and friendly which made long work days enjoyable. When necessary Simon did not hesitate to take the role of a leader and proposed rewarding approaches. Highlights of our work together were sessions to derive a business model for our innovative UAV services, where Simons deep technical knowledge was key to assess the feasibility of new product features. Definitely an enrichment in any team!"
     }
   ]
 }
