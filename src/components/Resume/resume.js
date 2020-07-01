@@ -566,6 +566,9 @@ const Resume = ({ resume }) => {
             display: table;
             clear: both;
           }
+          .header-left {
+            cursor: pointer;
+          }
 
           .display {
             display: block;
@@ -645,7 +648,6 @@ const Resume = ({ resume }) => {
               float: left;
               width: 70%;
               word-break: normal;
-              pcursor: pointer;
             }
             .section header .date {
               padding: 0.2em;
