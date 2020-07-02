@@ -195,5 +195,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.redirects,
     })
+    
+    createNodeField({
+      name: 'github',
+      node,
+      value: node.frontmatter.github,
+    })
   }
 }

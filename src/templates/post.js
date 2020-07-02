@@ -1,15 +1,17 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import SEO from 'components/SEO'
-import { css } from '@emotion/core'
-import Container from 'components/Container'
-import Layout from '../components/Layout'
-import { fonts } from '../lib/typography'
-import Share from '../components/Share'
-import config from '../../config/website'
-import { bpMaxSM } from '../lib/breakpoints'
+import { css } from '@emotion/core';
+import Container from 'components/Container';
+import SEO from 'components/SEO';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+import React from 'react';
+
+import config from '../../config/website';
+import Layout from '../components/Layout';
+import Share from '../components/Share';
+import { GitHub } from '../components/Social';
+import { bpMaxSM } from '../lib/breakpoints';
+import { fonts } from '../lib/typography';
 
 export default function Post({
   data: { site, mdx },
@@ -19,6 +21,7 @@ export default function Post({
   const date = mdx.frontmatter.date
   const title = mdx.frontmatter.title
   const banner = mdx.frontmatter.banner
+  const github = mdx.frontmatter.github 
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter} noSubscribeForm>
@@ -57,6 +60,7 @@ export default function Post({
             {author && <h3>{author}</h3>}
             {author && <span>—</span>}
             {date && <h3>{date}</h3>}
+            {github && <h3><GitHub url={github} /></h3>}
           </div>
           {banner && (
             <div
@@ -109,6 +113,7 @@ export const pageQuery = graphql`
         }
         slug
         keywords
+        github
       }
       body
     }
