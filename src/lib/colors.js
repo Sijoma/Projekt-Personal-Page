@@ -5,7 +5,8 @@ const colors = {
   red: '#E74C3C',
   blue: '#0f50db',  
   green: '#29B573',
-  goldenrod: 'goldenrod'
+  goldenrod: 'goldenrod',
+  shadowGray: 'rgba(116,109,105, 100%)'
 }
 
 export default colors

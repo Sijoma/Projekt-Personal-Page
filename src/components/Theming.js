@@ -20,13 +20,13 @@ const themes = {
   dark: {
     themeName: 'dark',
     colors: {
-      primary: colors.goldenrod,
-      secondary: darken(0.1, colors.goldenrod),
+      primary: colors.green,
+      secondary: darken(0.3, colors.green),
       text: colors.white,
       invertedText: colors.black,
       bodyBg: colors.black,
       headerBg: colors.black,
-      link: lighten(0.05, colors.goldenrod),
+      link: lighten(0.05, colors.green),
       ...colors,
     },
   },
