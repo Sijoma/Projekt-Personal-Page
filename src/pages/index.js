@@ -96,7 +96,7 @@ export default function Index({ data: { site, allMdx } }) {
                 fontStyle: 'italic'
               })}>
               {post.frontmatter.date} - ⏱
-              {post.fields.readingTime.text}
+              {post.fields.readingTime.text} {' '}
             </span>
             
             <Description>
@@ -105,7 +105,7 @@ export default function Index({ data: { site, allMdx } }) {
                 to={post.frontmatter.slug}
                 aria-label={`View ${post.frontmatter.title}`}
               >
-                Read article →
+              Read article →
               </Link>
             </Description>
           </div>

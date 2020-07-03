@@ -229,10 +229,6 @@ const Resume = ({ resume }) => {
             border-radius: 4px;
           }
 
-          section .main-summary{
-           box-shadow: 5px 5px gray; 
-          }
-
           /****************
            *	CUSTOM for small header image 
            ****************/
