@@ -41,7 +41,7 @@
       "summary": "Working on innovative solutions in the field of unmanned vehicles.",
       "highlights": [
         "Lead engineer responsible for the technical advancement of the SafeDrone Health project.",
-        "Development of prototypes to quickly validate new ideas and concepts."
+        "Development of prototypes to quickly validate new ideas, concepts and business models."
       ]
     },
     {
@@ -50,11 +50,11 @@
       "website": "https://health.safe-drone.com",
       "startDate": "2018-04-01",
       "endDate": "2019-08-01",
-      "summary": "Worked on Digital Maintenance Platform that assesses the flight-readiness of UAV",
+      "summary": "Worked on predictive maintenance Platform that assesses the flight-readiness of UAVs.",
       "highlights": [
-        "Implemented RESTful API with OpenAPI documentation",
-        "Improved robustness of the ETL and Analysis process",
-        "Maintained infrastructure with Kubernetes, Docker and Terraform"
+        "Implemented RESTful API with OpenAPI documentation.",
+        "Improved robustness of the ETL and Analysis process.",
+        "Maintained infrastructure with Kubernetes, Docker and Terraform."
       ]
     },
     {
@@ -65,7 +65,7 @@
       "endDate": "2017-07-31",
       "summary": "Tutor Video-Processing, Image-Analysis, Web Development",
       "highlights": [
-        "Automated detection of floating markers in UAV-based video to detect river flow rate",
+        "Automated detection of floating markers in UAV-based video to detect river flow rate.",
         "Assistance to the students as an expert in computer vision."
       ]
     },
@@ -74,10 +74,10 @@
       "position": "Web Developer - GIS",
       "startDate": "2016-09-01",
       "endDate": "2017-01-31",
-      "summary": "Contract work to improve WebGIS",
+      "summary": "Contract work to improve WebGIS.",
       "highlights": [
-        "Geoserver layer design & improvements",
-        "Implementation of new data sources"
+        "Geoserver layer design & improvements.",
+        "Implementation of new data sources."
       ]
     },
     {
@@ -97,8 +97,8 @@
       "endDate": "2019-07-31",
       "summary": "",
       "highlights": [
-        "Research in the field of computer vision and remote sensing",
-        "Building a fixed wing with autopilot and camera payload"
+        "Research in the field of computer vision and remote sensing.",
+        "Building a fixed wing with autopilot and camera payload."
       ]
     }
   ],
