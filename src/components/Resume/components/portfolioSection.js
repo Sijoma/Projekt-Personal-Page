@@ -77,7 +77,7 @@ const PortfolioSection = props => {
               id={id + '-item-' + index}
               type="checkbox"
               className="toggle-item"
-              checked={true}
+              checked={index === checked}
               onChange={() => setChecked(index)}
             />}
             <label htmlFor={id + '-item-' + index}></label>

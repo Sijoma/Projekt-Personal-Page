@@ -74,10 +74,10 @@
       "position": "Web Developer - GIS",
       "startDate": "2016-09-01",
       "endDate": "2017-01-31",
-      "summary": "Contract work to improve WebGIS.",
+      "summary": "Contract work to improve WebGIS for the department of archeology.",
       "highlights": [
-        "Geoserver layer design & improvements.",
-        "Implementation of new data sources."
+        "Geoserver layer design & improvements to visualise archeology finds.",
+        "Implementation of new data source system to include more information."
       ]
     },
     {
@@ -98,7 +98,7 @@
       "summary": "",
       "highlights": [
         "Research in the field of computer vision and remote sensing.",
-        "Building a fixed wing with autopilot and camera payload."
+        "Building UAVs (fixed wing & multicopter) with autopilot and camera payload."
       ]
     }
   ],
