@@ -50,7 +50,7 @@
       "website": "https://health.safe-drone.com",
       "startDate": "2018-04-01",
       "endDate": "2019-08-01",
-      "summary": "Worked on predictive maintenance Platform that assesses the flight-readiness of UAVs.",
+      "summary": "Worked on predictive maintenance platform that assesses the flight-readiness of UAVs.",
       "highlights": [
         "Implemented RESTful API with OpenAPI documentation.",
         "Improved robustness of the ETL and Analysis process.",
