@@ -3,9 +3,9 @@
     "name": "Simon Zengerling",
     "label": "Software Engineer",
     "picture": "resume/img_0065.jpg",
-    "email": "simonschulte1991@gmail.com",
+    "email": "simonzengerling@posteo.de",
     "phone": "+491716511983",
-    "website": "http://simon-zengerling.com",
+    "website": "https://simon-zengerling.com",
     "summary": "I'm a tech guy with a passion for unmanned aerial vehicles, over 40 year old text-editors and bleeding edge technology. I enjoy to automate everything - even the small things.",
     "location": {
       "address": "Rosmarinheide",
@@ -22,8 +22,8 @@
       },
       {
         "network": "LinkedIn",
-        "username": "simon-schulte-",
-        "url": "https://www.linkedin.com/in/simon-schulte-/"
+        "username": "simon-zengerling",
+        "url": "https://www.linkedin.com/in/simon-zengerling/"
       },
       {
         "network": "GitHub",
@@ -38,10 +38,10 @@
       "position": "Fullstack-Developer / Manager Corporate Business Innovation & Product Management",
       "website": "https://drones.lufthansa.com",
       "startDate": "2019-08-01",
-      "summary": "Working on innovative solutions in the field of unmanned vehicles",
+      "summary": "Working on innovative solutions in the field of unmanned vehicles.",
       "highlights": [
-        "Lead engineer responsible for the technical advancement of the projects",
-        "Development of prototypes to quickly validate new ideas and concepts"
+        "Lead engineer responsible for the technical advancement of the SafeDrone Health project.",
+        "Development of prototypes to quickly validate new ideas and concepts."
       ]
     },
     {
@@ -251,7 +251,7 @@
       "name": "UAV",
       "keywords": [
         "DIY 🛠",
-        "FPV Racing Drones 🚀",
+        "FPV Drones 🚀",
         "Mapping 🗺"
       ]
     },
