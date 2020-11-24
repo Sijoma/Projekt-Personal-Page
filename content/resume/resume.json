@@ -35,6 +35,18 @@
   "work": [
     {
       "company": "Lufthansa Technik AG",
+      "position": "DevOps Engineer @ AVIATAR Platform",
+      "website": "https://www.aviatar.com/",
+      "startDate": "2019-11-01",
+      "summary": "Member of the AVIATAR Platform Team working on OpenShift & Infrastructure as Code",
+      "highlights": [
+        "Take part in stakeholder meetings to enhance the overall platform.",
+        "Cloud-Administration with high degree of automation by leveraging infrastructure as code.",
+        "Analysis of cluster performance issues between OpenShift 3 and 4."
+      ]
+    },
+    {
+      "company": "Lufthansa Technik AG",
       "position": "Fullstack-Developer / Manager Corporate Business Innovation & Product Management",
       "website": "https://drones.lufthansa.com",
       "startDate": "2019-08-01",
@@ -52,9 +64,9 @@
       "endDate": "2019-08-01",
       "summary": "Worked on predictive maintenance platform that assesses the flight-readiness of UAVs.",
       "highlights": [
-        "Implemented RESTful API with OpenAPI documentation.",
-        "Improved robustness of the ETL and Analysis process.",
-        "Maintained infrastructure with Kubernetes, Docker and Terraform."
+        "Implement RESTful API with OpenAPI documentation.",
+        "Improve robustness of the ETL and Analysis process.",
+        "Maintain infrastructure with Kubernetes, Docker and Terraform."
       ]
     },
     {
@@ -106,19 +118,19 @@
     {
       "institution": "University of Münster",
       "area": "Geoinformatics",
-      "studyType": "Master of Science - Msc.",
-      "startDate": "2017-12-31",
-      "endDate": "2019-12-31",
-      "gpa": "-",
+      "studyType": "M.Sc.",
+      "startDate": "2017-04-01",
+      "endDate": "2019-06-11",
+      "gpa": "1.3",
       "courses": []
     },
     {
       "institution": "University of Münster",
       "area": "Geoinformatik",
-      "studyType": "Bachelor of Science - Bsc.",
-      "startDate": "2012-12-31",
-      "endDate": "2017-12-31",
-      "gpa": "-",
+      "studyType": "B.Sc.",
+      "startDate": "2012-10-01",
+      "endDate": "2017-04-07",
+      "gpa": "2.6",
       "courses": []
     }
   ],
@@ -142,13 +154,16 @@
   ],
   "skills": [
     {
-      "name": "Software-Engineering",
+      "name": "Cloud-Computing",
       "levelDisplay": "Daily use",
       "level": "Master",
       "keywords": [
+        "Microsoft Azure",
+        "Openshift",
+        "Kubernetes",
         "Docker",
-        "CI/CD",
-        "Project Management"
+        "Ansible",
+        "Terraform"
       ]
     },
     {
@@ -162,20 +177,31 @@
       ]
     },
     {
-      "name": "Databases",
+      "name": "Tools",
       "levelDisplay": "Daily use",
       "level": "Master",
       "keywords": [
-        "Spatial Databases",
+        "Linux",
+        "Vim",
+        "Git",
+        "Jira",
+        "VsCode"
+      ]
+    },
+    {
+      "name": "Databases",
+      "levelDisplay": "Frequent use",
+      "level": "Advanced",
+      "keywords": [
         "Postgres",
-        "MongoDB",
-        "Firestore"
+        "Azure SQL",
+        "MongoDB"
       ]
     },
     {
       "name": "Frontend-Development",
       "levelDisplay": "Frequent use",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "JavaScript",
         "NodeJS",
@@ -184,46 +210,14 @@
       ]
     },
     {
-      "name": "Cloud-Computing",
-      "levelDisplay": "Frequent use",
-      "level": "Advanced",
-      "keywords": [
-        "Microsoft Azure",
-        "Google Firebase",
-        "Kubernetes"
-      ]
-    },
-    {
       "name": "Data Science",
-      "levelDisplay": "Frequent use",
-      "level": "Advanced",
+      "levelDisplay": "Extended Knowledge",
+      "level": "Intermediate",
       "keywords": [
         "Python",
         "R",
         "Spatio-Temporal Analysis",
         "Pandas"
-      ]
-    },
-    {
-      "name": "Tools",
-      "levelDisplay": "Daily use",
-      "level": "Master",
-      "keywords": [
-        "Linux",
-        "Vim",
-        "Bash",
-        "Git",
-        "Jira",
-        "VsCode"
-      ]
-    },
-    {
-      "name": "Computer-Vision",
-      "levelDisplay": "Extended knowledge",
-      "level": "Intermediate",
-      "keywords": [
-        "OpenCV",
-        "Photogrammetry"
       ]
     }
   ],

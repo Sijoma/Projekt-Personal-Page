@@ -12,9 +12,6 @@ export default () => {
       <Link to="/blog" activeClassName="active" aria-label="View page">
         Blog
       </Link>
-      <Link to="/me" activeClassName="active" aria-label="View page">
-        Me
-      </Link>
       <Link to="/cv" activeClassName="active" aria-label="View page">
         CV
       </Link>

@@ -786,7 +786,7 @@ const Resume = ({ resume }) => {
           <Skills skills={skills} />
           <Languages languages={languages} />
           <Interests interests={interests} />
-          <References references={references} />
+          {/* <References references={references} /> */}
         </div>
     </React.Fragment>
   );

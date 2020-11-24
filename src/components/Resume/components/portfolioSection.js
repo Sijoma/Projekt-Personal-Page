@@ -45,6 +45,7 @@ const DescriptionBlock = ({ item }) => {
             item.publisher}
         </div>
       )}
+      {item.gpa && <div className="company"> ⌀ {item.gpa}</div>}
     </div>
     <DateBlock item={item} />
   </header>
@@ -77,7 +78,7 @@ const PortfolioSection = props => {
               id={id + '-item-' + index}
               type="checkbox"
               className="toggle-item"
-              checked={index === checked}
+              checked={true}
               onChange={() => setChecked(index)}
             />}
             <label htmlFor={id + '-item-' + index}></label>
