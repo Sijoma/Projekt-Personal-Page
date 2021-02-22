@@ -762,6 +762,7 @@ const Resume = ({ resume }) => {
 
         `}>
           <Header basics={basics} />
+          <Skills skills={skills} />
           <PortfolioSection items={work} />
           <PortfolioSection 
             items={volunteer} 
@@ -782,9 +783,9 @@ const Resume = ({ resume }) => {
             heading="Publications"
             id="publications"
             />
-          <Skills skills={skills} />
-          <Languages languages={languages} />
+          
           <Interests interests={interests} />
+          <Languages languages={languages} />
           {/* <References references={references} /> */}
         </div>
     </React.Fragment>
