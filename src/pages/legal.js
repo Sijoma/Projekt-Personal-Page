@@ -28,11 +28,11 @@ export default function Index({ data: { site, allMdx } }) {
         </h2>
         <div>
           <p>Angaben gemäß § 5 TMG</p>
-          <p>Simon Schulte Rosmarinheide 16 22417 Hamburg</p>
+          <p>Simon Zengerling Falkenweg 2D 48366 Laer</p>
           <p>
             {' '}
             <strong>Vertreten durch: </strong>
-            Simon Schulte
+            Simon Zengerling
           </p>
           <p>
             <strong>Kontakt: </strong>
@@ -45,7 +45,7 @@ export default function Index({ data: { site, allMdx } }) {
             <strong>
               Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:{' '}
             </strong>
-            Simon Schulte Rosmarinheide 16 22417 Hamburg{' '}
+            Simon Zengerling Falkenweg 2D 48366 Laer{' '}
           </p>
           <p>
             <strong>Haftungsausschluss: </strong>

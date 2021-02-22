@@ -7,7 +7,7 @@ import Summary from './summary';
 
 const Header = ({ basics }) => {
   return(
-<header id="header" className="clear">
+   <header id="header" className="clear">
 
     <HeaderImage />
     <div className="middle">
@@ -16,10 +16,14 @@ const Header = ({ basics }) => {
     </div>
       <span className="location">
     		<span className="address">{basics.location.address}, </span>
-    		<span className="postalCode">{basics.location.postalCode}, </span>
+    		<span className="postalCode">{basics.location.postalCode} </span>
     		<span className="city">{basics.location.city}, </span>
     		<span className="countryCode">{basics.location.region} </span>
     	</span>
+      <br></br>
+      <span>
+        * 17.10.1991
+      </span>
 
     <Contact basics={basics} />
     <Profiles profiles={basics.profiles||[]} />

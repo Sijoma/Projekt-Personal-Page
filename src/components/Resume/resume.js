@@ -12,7 +12,6 @@ import Languages from './languages';
 import References from './references';
 import Skills from './skills';
 
-// console.log('@@ styles:', styles);
 
 const Resume = ({ resume }) => {
   const theme = useTheme()
@@ -581,7 +580,7 @@ const Resume = ({ resume }) => {
 
           ${bpMinSM} {
             #resume {
-              width: 80%;
+              width: 90%;
               margin: 0 auto;
             }
             .section header .date {

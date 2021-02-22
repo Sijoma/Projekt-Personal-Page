@@ -1,4 +1,4 @@
-{
+{ 
   "basics": {
     "name": "Simon Zengerling",
     "label": "",
@@ -6,15 +6,20 @@
     "email": "simonzengerling@posteo.de",
     "phone": "+491716511983",
     "website": "https://simon-zengerling.com",
-    "summary": "I'm a tech guy with a passion for unmanned aerial vehicles, over 40 year old text-editors and bleeding edge technology. I enjoy to automate everything - even the small things.",
+    "summary": "I'm a tech guy with a passion for unmanned aerial vehicles, over 40 year old text-editors and bleeding edge technology. I enjoy to automate everything - even the small things - but atleast my deployments.",
     "location": {
-      "address": "Rosmarinheide",
-      "postalCode": "22417",
-      "city": "Hamburg",
+      "address": "Falkenweg",
+      "postalCode": "48366",
+      "city": "Laer",
       "countryCode": "DE",
-      "region": "Hamburg"
+      "region": "NRW"
     },
     "profiles": [
+      {
+        "network": "GitHub",
+        "username": "sijoma",
+        "url": "https://github.com/Sijoma"
+      },
       {
         "network": "Twitter",
         "username": "sijoma",
@@ -24,11 +29,6 @@
         "network": "LinkedIn",
         "username": "simon-zengerling",
         "url": "https://www.linkedin.com/in/simon-zengerling/"
-      },
-      {
-        "network": "GitHub",
-        "username": "sijoma",
-        "url": "https://github.com/Sijoma"
       }
     ]
   },
@@ -38,21 +38,22 @@
       "position": "DevOps Engineer @ AVIATAR Platform",
       "website": "https://www.aviatar.com/",
       "startDate": "2020-11-01",
-      "summary": "Member of the AVIATAR Platform Team working on OpenShift & Infrastructure as Code",
+      "summary": "Member of the AVIATAR platform team working on OpenShift & Infrastructure as Code",
       "highlights": [
-        "Take part in stakeholder meetings to enhance the overall platform.",
-        "Cloud-Administration with high degree of automation by leveraging infrastructure as code.",
+        "Enhance the resilience, features and observability of the AVIATAR platform.",
+        "Highly automated Cloud-Administration by leveraging infrastructure as code.",
         "Analysis of cluster performance issues between OpenShift 3 and 4."
       ]
     },
     {
       "company": "Lufthansa Technik AG",
-      "position": "Fullstack-Developer / Manager Corporate Business Innovation & Product Management",
+      "position": "Fullstack-Developer",
       "website": "https://drones.lufthansa.com",
       "startDate": "2019-08-01",
       "summary": "Working on innovative solutions in the field of unmanned vehicles.",
       "highlights": [
         "Lead engineer responsible for the technical advancement of the SafeDrone Health project.",
+        "Maintain cloud infrastructure, CI/CD with Kubernetes, Docker, Jenkins and Terraform.",
         "Development of prototypes to quickly validate new ideas, concepts and business models."
       ]
     },
@@ -64,9 +65,9 @@
       "endDate": "2019-08-01",
       "summary": "Worked on predictive maintenance platform that assesses the flight-readiness of UAVs.",
       "highlights": [
+        "Improved CI/CD with Jenkins and Kubernetes.",
         "Implement RESTful API with OpenAPI documentation.",
-        "Improve robustness of the ETL and Analysis process.",
-        "Maintain infrastructure with Kubernetes, Docker and Terraform."
+        "Improve robustness of the data pipeline."
       ]
     },
     {
@@ -91,13 +92,6 @@
         "Geoserver layer design & improvements to visualise archeology finds.",
         "Implementation of new data source system to include more information."
       ]
-    },
-    {
-      "company": "DRK-Blutspende Dienst West",
-      "position": "Working Student",
-      "startDate": "2012-10-01",
-      "endDate": "2014-08-01",
-      "summary": "Public Relations Department"
     }
   ],
   "volunteer": [
@@ -159,21 +153,11 @@
       "level": "Master",
       "keywords": [
         "Microsoft Azure",
-        "Openshift",
+        "OpenShift",
         "Kubernetes",
         "Docker",
         "Ansible",
         "Terraform"
-      ]
-    },
-    {
-      "name": "Backend",
-      "levelDisplay": "Daily use",
-      "level": "Master",
-      "keywords": [
-        "Restful API",
-        "ExpressJS",
-        "TypeScript"
       ]
     },
     {
@@ -189,6 +173,16 @@
       ]
     },
     {
+      "name": "Backend",
+      "levelDisplay": "Frequent use",
+      "level": "Advanced",
+      "keywords": [
+        "Restful API",
+        "ExpressJS",
+        "TypeScript"
+      ]
+    },
+    {
       "name": "Databases",
       "levelDisplay": "Frequent use",
       "level": "Advanced",
@@ -200,8 +194,8 @@
     },
     {
       "name": "Frontend-Development",
-      "levelDisplay": "Frequent use",
-      "level": "Advanced",
+      "levelDisplay": "Extended Knowledge",
+      "level": "Intermediate",
       "keywords": [
         "JavaScript",
         "NodeJS",
@@ -253,10 +247,10 @@
       "name": "Computer Stuff",
       "keywords": [
         "Code Meetups 🙋🏻‍♂️",
+        "Golang",
         "Hackathons 💻",
         "Raspberry PI",
-        "IoT",
-        "Go"
+        "IoT"
       ]
     }
   ],
