@@ -1,4 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6ac90f5e-1d37-48d2-affc-aa09e15f1775/deploy-status)](https://app.netlify.com/sites/projekt-simon/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ce39991-9b0b-4e58-8a70-e4659d85c7e6/deploy-status)](https://app.netlify.com/sites/sijoma/deploys)
 # Personal Page
 
