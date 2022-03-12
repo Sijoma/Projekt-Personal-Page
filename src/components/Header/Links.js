@@ -12,9 +12,9 @@ export default () => {
       <Link to="/blog" activeClassName="active" aria-label="View page">
         Blog
       </Link>
-      <Link to="/cv" activeClassName="active" aria-label="View page">
+      {/* <Link to="/cv" activeClassName="active" aria-label="View page">
         CV
-      </Link>
+      </Link> */}
       <Link to="/contact" activeClassName="active" aria-label="View page">
         Get in touch
       </Link>

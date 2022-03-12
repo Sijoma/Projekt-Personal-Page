@@ -113,7 +113,6 @@ export const pageQuery = graphql`
         }
         slug
         keywords
-        github
       }
       body
     }

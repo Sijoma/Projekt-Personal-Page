@@ -2,6 +2,7 @@ import { css } from '@emotion/core';
 import Container from 'components/Container';
 import Layout from 'components/Layout';
 import { useTheme } from 'components/Theming';
+import { graphql } from 'gatsby';
 import React from 'react';
 
 import { rhythm } from '../lib/typography';

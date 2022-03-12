@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => {
               }
             `}
           >
-            {/* {siteTitle} */}
+            {siteTitle}
           </Link>
           <div
             css={css`
